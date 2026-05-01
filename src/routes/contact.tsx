@@ -50,7 +50,7 @@ function ContactPage() {
                 {[
                   { Icon: MapPin, label: "Address", value: "Kiambu Road, Kiambu, Kenya" },
                   { Icon: Phone, label: "Phone", value: "0745 594 652" },
-                  { Icon: Mail, label: "Email", value: "hello@kikingahouse.co.ke" },
+                  { Icon: Mail, label: "Email", value: "kalvinndungu05@gmail.com" },
                   { Icon: Clock, label: "Hours", value: "Mon – Sat · 8:00 AM – 8:00 PM" },
                 ].map(({ Icon, label, value }) => (
                   <div key={label} className="flex gap-4">

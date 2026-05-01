@@ -37,7 +37,7 @@ export function SiteFooter() {
           <ul className="space-y-3 text-sm text-primary-foreground/70">
             <li className="flex gap-3"><MapPin className="w-4 h-4 mt-0.5 shrink-0" /> Kiambu Road, Kiambu, Kenya</li>
             <li className="flex gap-3"><Phone className="w-4 h-4 mt-0.5 shrink-0" /> 0745 594 652</li>
-            <li className="flex gap-3"><Mail className="w-4 h-4 mt-0.5 shrink-0" /> hello@kikingahouse.co.ke</li>
+            <li className="flex gap-3"><Mail className="w-4 h-4 mt-0.5 shrink-0" /><span>kalvinndungu05@gmail.com</span></li>
           </ul>
         </div>
       </div>
