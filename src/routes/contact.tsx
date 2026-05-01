@@ -7,7 +7,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Kikinga House" },
-      { name: "description", content: "Contact Kikinga House on Kiambu Road, Kiambu. Call 0727 370 171 or send us a message." },
+      { name: "description", content: "Contact Kikinga House on Kiambu Road, Kiambu. Call 0745 594 652 or send us a message." },
       { property: "og:title", content: "Contact Kikinga House" },
       { property: "og:description", content: "Get in touch with Kikinga House on Kiambu Road." },
       { property: "og:image", content: building },
@@ -49,7 +49,7 @@ function ContactPage() {
               <div className="space-y-5">
                 {[
                   { Icon: MapPin, label: "Address", value: "Kiambu Road, Kiambu, Kenya" },
-                  { Icon: Phone, label: "Phone", value: "0727 370 171" },
+                  { Icon: Phone, label: "Phone", value: "0745 594 652" },
                   { Icon: Mail, label: "Email", value: "hello@kikingahouse.co.ke" },
                   { Icon: Clock, label: "Hours", value: "Mon – Sat · 8:00 AM – 8:00 PM" },
                 ].map(({ Icon, label, value }) => (
